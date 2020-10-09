@@ -10,7 +10,7 @@ def eating_cookies(n):
         return 1
     elif n == 2:
         return 2
-    else:
+    else: #if 3 or more cookies
         return eating_cookies(n - 3) + eating_cookies(n - 2) + eating_cookies(n - 1)
 
     

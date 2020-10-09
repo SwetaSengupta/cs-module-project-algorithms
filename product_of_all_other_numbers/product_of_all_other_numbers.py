@@ -16,7 +16,18 @@ def product_of_all_other_numbers(arr):
                 product *= copy[j]
         arr[i] = product
     return arr
-    
+ 
+ #TODO Memoization
+
+# def product_of_all_other_numbers_v2(arr):
+#     full_prod = 1
+#     for num in arr:
+#         full_prod *= num
+
+#     for i in range(len(arr)):
+#         arr[i] = full_prod / arr[i]
+#     return arr
+   
 
 
 if __name__ == '__main__':
